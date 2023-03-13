@@ -267,7 +267,7 @@ a {
     font-family: 'Jacques Francois';
     font-style: normal;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 4rem;
     line-height: 84px;
 
     color: #FFFFFF;
@@ -527,6 +527,9 @@ a {
     .ev_ttl h2 {
         font-size: 1.5rem;
         margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+        height: 20px;
     }
     .event .content {
         margin-top: 0px;
@@ -543,7 +546,8 @@ a {
     }
     .text_ttl p , .text_period p{
         font-size: 1.2rem;
-        line-height: 10px;
+        /*line-height: 10px;*/
+        padding-top: 0px;
     
     }
     .cp_text .text_ttl p span {
@@ -1320,7 +1324,6 @@ a {
 .cp_info {
     width: 75%;
     margin: 0 auto;
-　　background: rgba(143, 247, 222, 0.13);
 }
 .cp_info h3 {
     text-align: center;
@@ -1503,7 +1506,7 @@ footer p {
         padding: 10px 20px;
     }
     .c-form__submit button:active {
-        box-shadow: 0 1px #352ba6;
+        box-shadow: 0 1px hsl(245, 59%, 41%);
         top: 1px;
     }
 
