@@ -1320,6 +1320,7 @@ a {
 .cp_info {
     width: 75%;
     margin: 0 auto;
+　　background: rgba(143, 247, 222, 0.13);
 }
 .cp_info h3 {
     text-align: center;
